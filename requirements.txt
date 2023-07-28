@@ -9,3 +9,4 @@ MarkupSafe
 Werkzeug
 zipp
 gunicorn
+sklearn
