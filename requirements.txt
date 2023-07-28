@@ -10,3 +10,8 @@ Werkzeug
 zipp
 gunicorn
 scikit-learn
+Flask-Cors
+sklearn
+pickle5
+numpy
+pandas
