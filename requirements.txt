@@ -9,4 +9,4 @@ MarkupSafe
 Werkzeug
 zipp
 gunicorn
-sklearn
+scikit-learn
