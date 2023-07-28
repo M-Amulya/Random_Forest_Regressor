@@ -15,3 +15,4 @@ sklearn
 pickle5
 numpy
 pandas
+wheel
