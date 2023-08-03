@@ -1,9 +1,19 @@
 from flask import Flask, render_template, request
 import pickle
 from sklearn.preprocessing import StandardScaler
+import warnings
+from sklearn.exceptions import InconsistentVersionWarning
+warnings.simplefilter("error", InconsistentVersionWarning)
 
 app = Flask(__name__, template_folder='template')
-model = pickle.load(open('final_model.pickle', 'rb'))
+
+
+
+try:
+    model = pickle.load(open(r'C:\\Users\\mutho\\OneDrive\\Documents\\Random_forest\\Random_Forest_Regressor\\final_model.pickle','rb'))
+
+except InconsistentVersionWarning as w:
+   print(w.original_sklearn_version)
 
 
 @app.route("/", methods=["GET"])
