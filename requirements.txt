@@ -9,3 +9,10 @@ MarkupSafe
 Werkzeug
 zipp
 gunicorn
+scikit-learn
+Flask-Cors
+sklearn
+pickles
+numpy
+pandas
+wheel
