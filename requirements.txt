@@ -13,3 +13,9 @@ scipy
 threadpoolctl
 Werkzeug
 zipp
+gunicorn
+Flask-Cors
+pickles
+numpy
+pandas
+wheel
